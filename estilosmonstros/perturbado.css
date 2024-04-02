@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../fundos/fundoperturbado.jpg);
+    background-attachment: fixed;
+}
+
+main{
+    color: #EBEBEB;
+    background-color: black;
+    width: 1200px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+    font-size: 19px;
+}
+
+h2{
+    background-image: linear-gradient(to top, #2C2CB0, #742477, rgb(197, 42, 202), #742477, #2C2CB0);
+    border-radius: 6px;
+    font-size: 24px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.conteinerperturbado{
+    display: flex;
+    }
+    
+    .resumoperturbado{
+        display: flex;
+        width:715px; 
+        height: 500px; 
+    }
+    
+    .fotoperturbado{
+        display: flex;
+        height: 500px; 
+        width:470px; 
+        position: relative; 
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .fotoperturbado img{
+        width: 470px;
+        height: 500px;
+    }

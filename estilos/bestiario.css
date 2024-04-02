@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+
+body{
+    background-image: url(../fundos/fundobestiario.jpg);
+    background-attachment: fixed;
+}
+
+main{
+    background-color: black;
+    color:#EBEBEB;
+    border-radius:8px;
+    width: 1200px;
+    padding: 20px;
+    margin:auto;
+}
+
+a:link{
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #EBEBEB;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+
+table img{
+    width: 170px;
+    height: 170px;
+}
+
+
+.sangue{
+    background-image: linear-gradient(to top, rgb(97, 2, 2), rgb(116, 10, 10), rgb(190, 17, 17), rgb(116, 10, 10), rgb(97, 2, 2));
+}
+
+.sanguetab th{
+    border: 3px solid rgb(143, 9, 9);
+    border-collapse: collapse;
+}
+
+.direitasangue{
+    position: relative;
+    left: 415px;
+}
+
+.direitasangue th{
+    border: 3px solid rgb(143, 9, 9);
+    border-collapse: collapse;
+}
+
+
+.morte{
+    background-image: linear-gradient(to top, rgb(20, 20, 20), rgb(44, 44, 44), rgb(63, 63, 63), rgb(44, 44, 44), rgb(20, 20, 20));
+}
+
+.mortetab th{
+    border: 3px solid rgb(54, 54, 54);
+    border-collapse: collapse;
+}
+
+.direitamorte{
+    position: relative;
+    left: 415px;
+}
+
+.direitamorte th{
+    border: 3px solid rgb(54, 54, 54);
+    border-collapse: collapse;
+}
+
+.conhecimento{
+    background-image: linear-gradient(to top, rgb(199, 147, 3), rgb(179, 168, 25), rgb(196, 193, 30), rgb(179, 168, 25), rgb(199, 147, 3));
+}
+
+.conhecimentotab th{
+    border: 3px solid rgb(194, 191, 43);
+    border-collapse: collapse;
+}
+
+.direitaconhecimento{
+    position: relative;
+    left: 415px;
+}
+
+.direitaconhecimento th{
+    border: 3px solid rgb(194, 191, 43);
+    border-collapse: collapse;
+}
+
+.energia{
+    background-image: linear-gradient(to top, rgb(18, 44, 192), rgb(154, 34, 184), rgb(232, 51, 238), rgb(154, 34, 184), rgb(18, 44, 192));
+}
+
+.energiatab th{
+    border: 3px solid rgb(126, 8, 150);
+    border-collapse: collapse;
+}
+
+.direitaenergia{
+    position: relative;
+    left: 415px;
+}
+
+.direitaenergia th{
+    border: 3px solid rgb(126, 8, 150);
+    border-collapse: collapse;
+}
+
+.naoparanormal{
+    background-image: linear-gradient(to top, rgb(73, 73, 73), rgb(100, 100, 100), rgb(112, 112, 112), rgb(100, 100, 100), rgb(73, 73, 73));
+}
+
+.naoparanormaltab th{
+    border: 3px solid rgb(121, 121, 121);
+    border-collapse: collapse;
+}
+

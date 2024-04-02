@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../fundos/fundoesqueletolodo.jpg);
+    background-attachment: fixed;
+}
+
+main{
+    color: #EBEBEB;
+    background-color: black;
+    width: 1200px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+    font-size: 19px;
+}
+
+h2{
+    background-image: linear-gradient(to top, rgb(20, 20, 20), rgb(44, 44, 44), rgb(63, 63, 63), rgb(44, 44, 44), rgb(20, 20, 20));
+    border-radius: 6px;
+    font-size: 24px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.conteineresqueleto{
+    display: flex;
+    }
+    
+    .resumoesqueleto{
+        display: flex;
+        width:715px; 
+        height: 500px; 
+    }
+    
+    .fotoesqueleto{
+        display: flex;
+        height: 500px; 
+        width:470px; 
+        position: relative; 
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .fotoesqueleto img{
+        width: 470px;
+        height: 500px;
+    }

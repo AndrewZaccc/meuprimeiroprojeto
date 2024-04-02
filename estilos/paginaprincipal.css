@@ -1,0 +1,96 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+
+body{
+    background-image: url(../fundos/fundooutroreino.jpg);
+    background-size: cover;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.753);
+    color:#EBEBEB;
+    border-radius:8px;
+    width: 1200px;
+    padding: 20px;
+    margin:auto;
+}
+
+h2{
+    background-image: linear-gradient(to top, rgb(54, 54, 54), rgb(88, 88, 88), rgb(54, 54, 54));
+    border-radius: 8px;
+}
+
+.caixa1{
+display: flex;
+justify-content: space-around;
+}
+
+.div1{
+    border: 6px solid #b9b9b9;
+    border-radius: 4px;
+    width: 250px;
+    height: 210px;
+    overflow: hidden;
+}
+
+
+.div2{
+    width: 414px;
+    height: 170px;
+    border: 6px solid #b9b9b9;
+    border-radius: 4px;
+    font-size:30px;
+    line-height: 0;
+    text-align: center;
+    overflow: hidden; 
+}
+
+a:link{
+    text-decoration: none;
+    color:#EBEBEB;
+}
+
+a:visited{
+    color:#EBEBEB;
+}
+
+.caixa2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textodiv1{
+    position: relative;
+    top: -6px;
+    height: 50px;
+    width: 250px;
+    border: 6px solid #b9b9b9;
+    border-radius: 4px;
+    font-size:30px;
+    text-align: center;
+    line-height: 0;
+}
+
+.textodiv2{
+    position: relative;
+    width: 414px;
+    height: 50px;
+    border: 6px solid #b9b9b9;
+    top: -6px;
+    border-radius: 4px;
+    font-size:30px;
+    line-height: 0;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.caixa3{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
