@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(../arquivos/fundoocultista.jpg);
+    background-image: url(../fundos/fundostephanie.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -18,10 +18,15 @@ border-radius:8px;
 font-size: 19px;
 }
 
+h1{
+    text-align: center;
+}
+
 h2{
-   background-image: linear-gradient(to top,#a25ba2ee,#5C4C65, #493455, #302336);
-   border-radius: 6px;
-   font-size: 24px;
+    background-image: linear-gradient(to top, #700e70, #c521c5, #df28df, #c521c5, #700e70);
+    border-radius: 6px;
+    font-size: 24px;
+    color:#ebebebf3;
 }
 
 h3{
@@ -45,7 +50,7 @@ h4{
     width: 200px;
     height: 200px;
     display: flex;
-    border: 6px solid #5C4C65;
+    border: 6px solid #c521c5;
     justify-content: center;
     overflow: hidden;
 }
@@ -64,11 +69,11 @@ h4{
     display:flex;
     width: 200px;
     height: 200px;
-    border: 6px solid #5C4C65;
+    border: 6px solid #c521c5;
     justify-content: center;
     overflow: hidden;
     position: relative;
-    right: 8px;
+    right: 12px;
 }
 
 .atributos img{
@@ -79,6 +84,9 @@ h4{
 .conteiner{
     display: flex;
     font-size: 20px;
+    position: relative;
+    left: 94px;
+    width: 1030px;
 }
 
 table{
@@ -86,9 +94,9 @@ width: 600px;
 height: 212px;
 border-collapse: collapse;
 position: relative;
-right: 4px;
+right: 6px;
 }
 
 td{
-  border: 6px solid #5C4C65;
+    border: 6px solid #c521c5;
 }

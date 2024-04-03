@@ -18,6 +18,10 @@ border-radius:8px;
 font-size: 19px;
 }
 
+h1{
+    text-align: center;
+}
+
 h2{
    background-image: linear-gradient(to top, #5E584F,#E1C363, #E1C363, #5E584F);
    border-radius: 6px;
@@ -81,7 +85,7 @@ h4{
     justify-content: center;
     overflow: hidden;
     position: relative;
-    right: 8px;
+    right: 12px;
 }
 
 .atributos img{
@@ -92,6 +96,9 @@ h4{
 .conteiner{
     display: flex;
     font-size: 20px;
+    position: relative;
+    left: 94px;
+    width: 1030px;
 }
 
 table{
@@ -99,7 +106,7 @@ width: 600px;
 height: 212px;
 border-collapse: collapse;
 position: relative;
-right: 4px;
+right: 6px;
 }
 
 td{

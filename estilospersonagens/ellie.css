@@ -12,14 +12,19 @@ body{
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
-    }
+}
+
+ h1{
+    text-align: center;
+}
+
 h2{
     background-image: linear-gradient(to top, rgb(96, 11, 99), rgb(116, 18, 119), rgba(238, 38, 245, 0.808), rgb(116, 18, 119), rgb(96, 11, 99)); width: 100%; border-radius: 6px;
     font-size: 24px;
-    }
+}
 
 h3{
-        text-decoration: underline;
+   text-decoration: underline;
 }
 
 h4{
@@ -122,7 +127,7 @@ img{
     justify-content: center;
     overflow: hidden;
     position: relative;
-    right: 8px;
+    right: 12px;
 }
 
 .atributos img{
@@ -133,6 +138,9 @@ img{
 .conteiner{
     display: flex;
     font-size: 20px;
+    position: relative;
+    left: 94px;
+    width: 1030px;
 }
 
 table{
@@ -140,7 +148,7 @@ width: 600px;
 height: 212px;
 border-collapse: collapse;
 position: relative;
-right: 4px;
+right: 6px;
 }
 
 td{

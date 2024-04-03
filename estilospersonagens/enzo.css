@@ -17,6 +17,10 @@ main{
     font-size: 19px;
 }
 
+h1{
+    text-align: center;
+}
+
 h2{
     background-image:linear-gradient(to top,#ac1515, #991717, #741515, #681515 );
     border-radius: 6px;
@@ -75,7 +79,7 @@ h4{
     justify-content: center;
     overflow: hidden;
     position: relative;
-    right: 8px;
+    right: 12px;
 }
 
 .atributos img{
@@ -86,6 +90,9 @@ h4{
 .conteiner{
     display: flex;
     font-size: 20px;
+    position: relative;
+    left: 94px;
+    width: 1030px;
 }
 
 table{
@@ -93,7 +100,7 @@ width: 600px;
 height: 212px;
 border-collapse: collapse;
 position: relative;
-right: 4px;
+right: 6px;
 }
 
 td{
