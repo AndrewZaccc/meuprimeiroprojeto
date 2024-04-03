@@ -19,9 +19,7 @@ border-radius:8px;
 font-size: 19px;
 }
 
-h1{
-    text-align: center;
-}
+h1{text-align: center;}
 
 h2{
    background-image: linear-gradient(to top,#a25ba2ee,#5C4C65, #493455, #302336);
@@ -80,8 +78,7 @@ h4{
     justify-content: center;
     overflow: hidden;
     position: relative;
-    right: 12px;
-}
+    right: 12px;}
 
 .atributos img{
     width: 100%;
@@ -93,8 +90,7 @@ h4{
     font-size: 20px;
     position: relative;
     left: 94px;
-    width: 1030px;
-}
+    width: 1030px;}
 
 .tabela{
     display: flex;
@@ -105,8 +101,7 @@ width: 600px;
 height: 212px;
 border-collapse: collapse;
 position: relative;
-right: 6px;
-}
+right: 6px;}
 
 td{
   border: 6px solid #5C4C65;
