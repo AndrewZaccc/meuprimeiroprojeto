@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    font-size: 30px;
+    color:#EBEBEB;
+}
+
+.conteineirlink{
+    display: flex;
+}
+
+.anterior{
+    position: relative;
+    left: 593px;
+}
+
+.proxima{
+    position: relative;
+    left: 923px;
+}
+
+a:link{
+    text-decoration: underline;
+    color:#EBEBEB;
+}
+
+a:visited{
+    color:#EBEBEB;
+}
