@@ -33,8 +33,15 @@ p{
     text-align: center;
 }
 
+.nostyle{
+    font-size: 26px;
+    text-align: center;
+    line-height: normal;
+}
+
 .comentario{
     font-size: 22px;
+    line-height: normal;
 }
 
 .mostrar{
@@ -44,7 +51,7 @@ p{
 }
 
 
-.conteinerHelo{
+.conteiner{
     text-align: center;
     display: block;
 }
@@ -54,5 +61,29 @@ p{
 }
 
 #comentLe{
+    display: none;
+}
+
+#comentGab{
+    display: none;
+}
+
+#comentNath{
+    display: none;
+}
+
+#comentRafa{
+    display: none;
+}
+
+#comentMel{
+    display: none;
+}
+
+#comentLari{
+    display: none;
+}
+
+#comentAbaca{
     display: none;
 }
