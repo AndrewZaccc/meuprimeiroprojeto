@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(../fundos/fundostephanie.jpg);
+    background-image: url(../arquivos/fundostephanie.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -46,6 +46,14 @@ h4{
     color: rgb(218, 204, 13);
 }
 
+.conteiner{
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    left: 94px;
+    width: 1030px;
+}
+
 .caixa1{
     width: 200px;
     height: 200px;
@@ -62,7 +70,6 @@ h4{
 
 .tabela{
     display: flex;
-
 }
 
 .atributos{
@@ -81,14 +88,6 @@ h4{
     height: 100%;
 }
 
-.conteiner{
-    display: flex;
-    font-size: 20px;
-    position: relative;
-    left: 94px;
-    width: 1030px;
-}
-
 table{
 width: 600px;
 height: 212px;
@@ -98,5 +97,5 @@ right: 6px;
 }
 
 td{
-    border: 6px solid #c521c5;
+  border: 6px solid #c521c5;
 }

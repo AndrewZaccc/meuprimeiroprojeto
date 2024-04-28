@@ -12,19 +12,19 @@ body{
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
-}
+    }
 
- h1{
+h1{
     text-align: center;
 }
 
 h2{
     background-image: linear-gradient(to top, rgb(96, 11, 99), rgb(116, 18, 119), rgba(238, 38, 245, 0.808), rgb(116, 18, 119), rgb(96, 11, 99)); width: 100%; border-radius: 6px;
     font-size: 24px;
-}
+    }
 
 h3{
-   text-decoration: underline;
+        text-decoration: underline;
 }
 
 h4{
@@ -58,10 +58,11 @@ img{
 
 .portrait2{
         position: relative;
-        left: 20px;
+        left: 10px;
+        top: 10px;
         z-index: 1;
-        width: 209px;
-        height: 224px;
+        width: 206px;
+        height: 204px;
         color: white;
         background: blue;
         display: flex;
@@ -76,14 +77,17 @@ img{
         z-index: -1;
         width: calc(100% + 5px);
         height: calc(100% + 5px);
-        background-image:  linear-gradient(45deg, rgb(101, 3, 139), rgb(255, 7, 201), rgb(203, 100, 243), rgb(89, 1, 161), rgb(222, 0, 252), rgb(252, 0, 176));
+        background-image:  linear-gradient(45deg, rgb(101, 3, 139), rgb(140, 4, 173), rgb(203, 100, 243), rgb(89, 1, 161), rgb(140, 4, 173), rgb(181, 0, 236));
         border-radius: 5px;
         background-size: 300%;
         animation: AnimarBorda 8s linear infinite;
 }
 
 .textoaparencia{
-    width: 960px;
+    position: relative;
+    top: 0px;
+    left: 30px;
+    width: 900px;
 }
 
 .conteineraparencia{
