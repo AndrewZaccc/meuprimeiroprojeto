@@ -110,3 +110,59 @@ right: 6px;
 td{
   border: 6px solid #b8aa19;
 }
+
+img{
+    width: 200px;
+}
+
+.portrait2{
+    position: relative;
+    left: 40px;
+    top: 2px;
+    z-index: 1;
+    width: 206px;
+    height: 204px;
+    color: white;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.portrait2::before, .portrait2::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    background-image:  linear-gradient(45deg, #775823, #EEDC54, #948722, #f8e340, #a37c37, #e2cf3a);
+    border-radius: 5px;
+    background-size: 300%;
+    animation: AnimarBorda 8s linear infinite;
+}
+
+.portrait2::after{
+    filter: blur(15px);
+}
+
+@keyframes AnimarBorda{
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 300%;
+     }
+    
+}
+
+.textoaparencia{
+position: relative;
+top: 0px;
+left: 30px;
+width: 900px;
+}
+
+.conteineraparencia{
+display: flex;
+}
